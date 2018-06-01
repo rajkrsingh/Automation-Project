@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="84" started-at="2018-05-31T13:45:04Z" finished-at="2018-05-31T13:45:04Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="84" started-at="2018-05-31T13:45:04Z" finished-at="2018-05-31T13:45:04Z">
+      <class name="com.qa.test.FirstMavenProject">
+        <test-method status="PASS" signature="sum()[pri:1, instance:com.qa.test.FirstMavenProject@16d4b5c]" name="sum" duration-ms="20" started-at="2018-05-31T19:15:04Z" finished-at="2018-05-31T19:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sub()[pri:2, instance:com.qa.test.FirstMavenProject@16d4b5c]" name="sub" duration-ms="2" started-at="2018-05-31T19:15:04Z" finished-at="2018-05-31T19:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="mul()[pri:3, instance:com.qa.test.FirstMavenProject@16d4b5c]" name="mul" duration-ms="8" started-at="2018-05-31T19:15:04Z" finished-at="2018-05-31T19:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="div()[pri:4, instance:com.qa.test.FirstMavenProject@16d4b5c]" name="div" duration-ms="1" started-at="2018-05-31T19:15:04Z" finished-at="2018-05-31T19:15:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+      </class> <!-- com.qa.test.FirstMavenProject -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
