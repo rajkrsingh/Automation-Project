@@ -1,64 +1,82 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results total="12" passed="12" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="16" passed="16">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2018-05-31T15:47:39Z" name="Surefire suite" finished-at="2018-05-31T15:47:39Z" duration-ms="52">
+  <suite name="Surefire suite" duration-ms="62" started-at="2018-06-06T04:36:35Z" finished-at="2018-06-06T04:36:35Z">
     <groups>
     </groups>
-    <test started-at="2018-05-31T15:47:39Z" name="Surefire test" finished-at="2018-05-31T15:47:39Z" duration-ms="52">
-      <class name="com.qa.test.TestThirdProgram">
-        <test-method signature="div()[pri:0, instance:com.qa.test.TestThirdProgram@4386f16]" started-at="2018-05-31T21:17:39Z" name="div" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
+    <test name="Surefire test" duration-ms="62" started-at="2018-06-06T04:36:35Z" finished-at="2018-06-06T04:36:35Z">
+      <class name="com.qa.test.TestFourthProgram">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestFourthProgram@43a25848]" name="div" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method signature="mul()[pri:0, instance:com.qa.test.TestThirdProgram@4386f16]" started-at="2018-05-31T21:17:39Z" name="mul" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestFourthProgram@43a25848]" name="mul" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method signature="sub()[pri:0, instance:com.qa.test.TestThirdProgram@4386f16]" started-at="2018-05-31T21:17:39Z" name="sub" finished-at="2018-05-31T21:17:39Z" duration-ms="1" status="PASS">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestFourthProgram@43a25848]" name="sum" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestFourthProgram@43a25848]" name="sub" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method signature="sum()[pri:0, instance:com.qa.test.TestThirdProgram@4386f16]" started-at="2018-05-31T21:17:39Z" name="sum" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
+      </class> <!-- com.qa.test.TestFourthProgram -->
+      <class name="com.qa.test.TestThirdProgram">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestThirdProgram@5594a1b5]" name="mul" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestThirdProgram@5594a1b5]" name="sub" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestThirdProgram@5594a1b5]" name="div" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestThirdProgram@5594a1b5]" name="sum" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.test.TestThirdProgram -->
       <class name="com.qa.test.TestSecondProg">
-        <test-method signature="div()[pri:0, instance:com.qa.test.TestSecondProg@2ea227af]" started-at="2018-05-31T21:17:39Z" name="div" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- div -->
-        <test-method signature="mul()[pri:0, instance:com.qa.test.TestSecondProg@2ea227af]" started-at="2018-05-31T21:17:39Z" name="mul" finished-at="2018-05-31T21:17:39Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- mul -->
-        <test-method signature="sub()[pri:0, instance:com.qa.test.TestSecondProg@2ea227af]" started-at="2018-05-31T21:17:39Z" name="sub" finished-at="2018-05-31T21:17:39Z" duration-ms="6" status="PASS">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestSecondProg@3ac3fd8b]" name="sub" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method signature="sum()[pri:0, instance:com.qa.test.TestSecondProg@2ea227af]" started-at="2018-05-31T21:17:39Z" name="sum" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestSecondProg@3ac3fd8b]" name="sum" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestSecondProg@3ac3fd8b]" name="div" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestSecondProg@3ac3fd8b]" name="mul" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
       </class> <!-- com.qa.test.TestSecondProg -->
       <class name="com.qa.test.TestFirstProject">
-        <test-method signature="div()[pri:0, instance:com.qa.test.TestFirstProject@65466a6a]" started-at="2018-05-31T21:17:39Z" name="div" finished-at="2018-05-31T21:17:39Z" duration-ms="11" status="PASS">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestFirstProject@7c30a502]" name="div" duration-ms="16" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method signature="sub()[pri:0, instance:com.qa.test.TestFirstProject@65466a6a]" started-at="2018-05-31T21:17:39Z" name="sub" finished-at="2018-05-31T21:17:39Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- sub -->
-        <test-method signature="mul()[pri:0, instance:com.qa.test.TestFirstProject@65466a6a]" started-at="2018-05-31T21:17:39Z" name="mul" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestFirstProject@7c30a502]" name="mul" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method signature="sum()[pri:0, instance:com.qa.test.TestFirstProject@65466a6a]" started-at="2018-05-31T21:17:39Z" name="sum" finished-at="2018-05-31T21:17:39Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestFirstProject@7c30a502]" name="sum" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestFirstProject@7c30a502]" name="sub" duration-ms="0" started-at="2018-06-06T10:06:35Z" finished-at="2018-06-06T10:06:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
       </class> <!-- com.qa.test.TestFirstProject -->
     </test> <!-- Surefire test -->
   </suite> <!-- Surefire suite -->
