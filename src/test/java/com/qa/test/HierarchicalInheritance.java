@@ -1,7 +1,10 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
 class Animal
 {
+	
 	 void sound()
 	{
 		System.out.println("Diffrent type of Sounds");
@@ -10,7 +13,8 @@ class Animal
 
 class Cat extends Animal
 {
-	 void meoo()
+	
+	void meoo()
 	{
 		System.out.println("Cat sounds like meoooo");
 	}
@@ -24,8 +28,8 @@ class Dog extends Animal
 	}
 }
 public class HierarchicalInheritance {
-	
-	public static void main(String args[])
+	@Test
+	public void main()
 	{
 		Dog d=new Dog();
 		Cat c=new Cat();

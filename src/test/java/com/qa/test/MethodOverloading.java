@@ -1,8 +1,11 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
 class Addition
 {
 	int sum;
+	
 	void summ(int a, int b)
 	{
 		sum=a+b;
@@ -17,7 +20,8 @@ class Addition
 }
 public class MethodOverloading {
 
-	 public static void main(String args[])
+	 @Test 
+	 public void main()
 	 {
 		 Addition add=new Addition();
 		 add.summ(10, 20);

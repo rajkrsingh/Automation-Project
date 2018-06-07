@@ -3,7 +3,10 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
-      <class name="com.qa.test.TestFirstProject"/>
+      <class name="com.qa.test.Child"/>
+      <class name="com.qa.test.Father"/>
+      <class name="com.qa.test.MultiLevel_Inheritance"/>
+      <class name="com.qa.test.GrandFather"/>
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Failed suite [Default suite] -->

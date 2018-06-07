@@ -1,5 +1,8 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
+
 class A
 {
 	int x=10;
@@ -7,7 +10,8 @@ class A
 
 public class InheritanceTest extends A {
 	int y=5;
-	public static void main(String args[])
+	
+	public void main()
 	{
 		InheritanceTest b1=new InheritanceTest();
 		System.out.println("Parent class:"+b1.x);

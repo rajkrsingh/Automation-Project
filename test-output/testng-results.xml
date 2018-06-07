@@ -1,29 +1,119 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="22" passed="22">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67" started-at="2018-06-03T03:56:35Z" finished-at="2018-06-03T03:56:36Z">
+  <suite name="Suite" duration-ms="185" started-at="2018-06-07T11:24:26Z" finished-at="2018-06-07T11:24:26Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67" started-at="2018-06-03T03:56:35Z" finished-at="2018-06-03T03:56:36Z">
-      <class name="com.qa.test.TestFirstProject">
-        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestFirstProject@16d4b5c]" name="div" duration-ms="16" started-at="2018-06-03T09:26:35Z" finished-at="2018-06-03T09:26:35Z">
+    <test name="Test" duration-ms="185" started-at="2018-06-07T11:24:26Z" finished-at="2018-06-07T11:24:26Z">
+      <class name="com.qa.test.TestFourthProgram">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestFourthProgram@7c16905e]" name="div" duration-ms="15" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- div -->
-        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestFirstProject@16d4b5c]" name="mul" duration-ms="2" started-at="2018-06-03T09:26:35Z" finished-at="2018-06-03T09:26:35Z">
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestFourthProgram@7c16905e]" name="sum" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestFourthProgram@7c16905e]" name="mul" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mul -->
-        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestFirstProject@16d4b5c]" name="sub" duration-ms="1" started-at="2018-06-03T09:26:35Z" finished-at="2018-06-03T09:26:35Z">
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestFourthProgram@7c16905e]" name="sub" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sub -->
-        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestFirstProject@16d4b5c]" name="sum" duration-ms="1" started-at="2018-06-03T09:26:35Z" finished-at="2018-06-03T09:26:35Z">
+      </class> <!-- com.qa.test.TestFourthProgram -->
+      <class name="com.qa.test.MethodOverloading">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.qa.test.MethodOverloading@68be2bc2]" name="main" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.qa.test.MethodOverloading -->
+      <class name="com.qa.test.TestThirdProgram">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestThirdProgram@1753acfe]" name="mul" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestThirdProgram@1753acfe]" name="sub" duration-ms="16" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestThirdProgram@1753acfe]" name="div" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestThirdProgram@1753acfe]" name="sum" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+      </class> <!-- com.qa.test.TestThirdProgram -->
+      <class name="com.qa.test.MultiLevel_Inheritance">
+        <test-method status="PASS" signature="testInhertance()[pri:0, instance:com.qa.test.MultiLevel_Inheritance@2a5ca609]" name="testInhertance" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInhertance -->
+      </class> <!-- com.qa.test.MultiLevel_Inheritance -->
+      <class name="com.qa.test.SingleInheritance">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.qa.test.SingleInheritance@2a2d45ba]" name="main" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.qa.test.SingleInheritance -->
+      <class name="com.qa.test.TestSecondProg">
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestSecondProg@548a9f61]" name="mul" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestSecondProg@548a9f61]" name="div" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestSecondProg@548a9f61]" name="sum" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sum -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestSecondProg@548a9f61]" name="sub" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+      </class> <!-- com.qa.test.TestSecondProg -->
+      <class name="com.qa.test.HierarchicalInheritance">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.qa.test.HierarchicalInheritance@675d3402]" name="main" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.qa.test.HierarchicalInheritance -->
+      <class name="com.qa.test.TestFirstProject">
+        <test-method status="PASS" signature="div()[pri:0, instance:com.qa.test.TestFirstProject@7dc7cbad]" name="div" duration-ms="15" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- div -->
+        <test-method status="PASS" signature="sub()[pri:0, instance:com.qa.test.TestFirstProject@7dc7cbad]" name="sub" duration-ms="14" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sub -->
+        <test-method status="PASS" signature="mul()[pri:0, instance:com.qa.test.TestFirstProject@7dc7cbad]" name="mul" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mul -->
+        <test-method status="PASS" signature="sum()[pri:0, instance:com.qa.test.TestFirstProject@7dc7cbad]" name="sum" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sum -->
       </class> <!-- com.qa.test.TestFirstProject -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      <class name="com.qa.test.InheritanceTest">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.qa.test.InheritanceTest@28feb3fa]" test-instance-name="" name="main" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.qa.test.InheritanceTest -->
+      <class name="com.qa.test.MethodOverloading1">
+        <test-method status="PASS" signature="main()[pri:0, instance:com.qa.test.MethodOverloading1@20e2cbe0]" name="main" duration-ms="0" started-at="2018-06-07T16:54:26Z" finished-at="2018-06-07T16:54:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+      </class> <!-- com.qa.test.MethodOverloading1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Test">
+		<classes>
+			<class name="com.qa.test.TestFirstProject" />
+			<class name="com.qa.test.TestSecondProg" />
+			<class name="com.qa.test.TestThirdProgram" />
+			<class name="com.qa.test.TestFourthProgram" />
+			<class name="com.qa.test.SingleInheritance" />
+			<class name="com.qa.test.MultiLevel_Inheritance" />
+			<class name="com.qa.test.MethodOverloading1" />
+			<class name="com.qa.test.MethodOverloading" />
+			<class name="com.qa.test.InheritanceTest" />
+			<class name="com.qa.test.HierarchicalInheritance" />
+
+		</classes>
+
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

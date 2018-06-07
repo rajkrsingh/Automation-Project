@@ -1,5 +1,7 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
 class GrandFather
 {
 	public void grandParent()
@@ -23,15 +25,16 @@ class Child extends Father
 		System.out.println("This is Child Class");
 	}
 }
-public class MultiLevel_Inheritance {
-	
-	public static void main(String args[])
+
+public class MultiLevel_Inheritance 
+{
+	@Test
+	public void testInhertance()
 	{
 		Child ch=new Child();
 		ch.child();
 		ch.parent();
 		ch.grandParent();
+		System.out.println("Test");
 	}
-	
-
 }

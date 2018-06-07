@@ -1,5 +1,7 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
 class Adder
 {
 	static int add(int a, int b)
@@ -12,7 +14,8 @@ class Adder
 	}
 }
 public class MethodOverloading1 {
-	public static void main(String args[])
+	@Test
+	public static void main()
 	{
 		System.out.println(Adder.add(50,100));
 		System.out.println(Adder.add(10.5,30.5));

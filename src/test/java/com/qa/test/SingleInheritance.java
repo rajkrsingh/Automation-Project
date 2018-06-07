@@ -1,5 +1,7 @@
 package com.qa.test;
 
+import org.testng.annotations.Test;
+
 class ParentClass
 {
 	public void parent()
@@ -17,8 +19,8 @@ class ChildClass extends ParentClass
 }
 
 public class SingleInheritance {
-	
-	public static void main(String args[])
+	@Test
+	public void main()
 	{
 		
 		ChildClass ch=new ChildClass();
