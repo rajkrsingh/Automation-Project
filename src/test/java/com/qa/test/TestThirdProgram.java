@@ -11,7 +11,7 @@ public class TestThirdProgram {
 	  int b=20;
 	  int summ;
 	  summ=a+b;
-	  
+	  System.out.println("hello");
 	  System.out.println("Addition result:"+summ);
 	}
 
