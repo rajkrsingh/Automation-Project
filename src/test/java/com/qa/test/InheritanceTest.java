@@ -16,6 +16,7 @@ public class InheritanceTest extends A {
 		InheritanceTest b1=new InheritanceTest();
 		System.out.println("Parent class:"+b1.x);
 		System.out.println("Child class:"+b1.y);
+		System.out.println("testttt");
 	}
 
 
